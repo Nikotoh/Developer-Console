@@ -11,5 +11,5 @@ public abstract class ConsoleCommand
     public abstract string Description { get; }
 
     // Method to execute the command
-    public abstract string Execute(string[] args);
+    public abstract void Execute(string[] args);
 }
