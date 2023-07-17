@@ -13,7 +13,7 @@ To install the Developer Console into your Unity project:
 ## Usage
 Once installed, the Developer Console can be accessed in-game by pressing the "`" (grave accent) key.
 
-The console provides a text input field where commands can be entered. To execute a command, type it into the input field and press enter. Commands must start with a "/" followed by the command name and any arguments, separated by spaces. For example: `**/addGold 100**`
+The console provides a text input field where commands can be entered. To execute a command, type it into the input field and press enter. Commands must start with a "/" followed by the command name and any arguments, separated by spaces. For example: `/addGold 100`
 
 ## Adding New Commands
 To add a new command:
@@ -46,7 +46,7 @@ Now, the /myCommand command can be used in the console.
 ```
 
 ## Command Arguments
-Commands can take any number of arguments. These arguments are entered in the console after the command name, separated by spaces. For example: **/myCommand arg1 arg2 arg3**
+Commands can take any number of arguments. These arguments are entered in the console after the command name, separated by spaces. For example: `/myCommand arg1 arg2 arg3`
 
 In the **Execute** method of a **ConsoleCommand**, these arguments can be accessed through the **args** array parameter. The arguments are strings, so they may need to be parsed or converted to other types if necessary.
 
