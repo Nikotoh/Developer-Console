@@ -46,7 +46,7 @@ public class MyCommand : ConsoleCommand
 ```
 commands.Add("myCommand", new MyCommand());
 ```
-Now, the /myCommand command can be used in the console.
+Now, the `/myCommand` command can be used in the console.
 
 
 ## Command Arguments
